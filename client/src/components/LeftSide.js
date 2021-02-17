@@ -29,7 +29,7 @@ class LeftSide extends React.Component {
             onChange= { this.validTextArea }
           ></textarea>
           <button
-            className="submit"
+            className="button"
             disabled = { !validText }
           >Cadastrar</button>
         </div>
