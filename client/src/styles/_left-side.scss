@@ -3,7 +3,6 @@
   flex-direction: column;
   align-items: center;
   width: 50%;
-
   div {
     @extend .left-side;
     width: 60%;
@@ -40,7 +39,7 @@
       outline: none;
       &:disabled {
         background: $disabled;
-        color: $content;
+        color: $disabledText;
       }
       &:hover:enabled {
         opacity: 0.7;

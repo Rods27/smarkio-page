@@ -11,6 +11,10 @@
     "react-scripts": "4.0.2",
     "web-vitals": "^1.0.1"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Rods27/smarkio-page.git"
+  },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
