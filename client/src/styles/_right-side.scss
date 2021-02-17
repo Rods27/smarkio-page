@@ -1,0 +1,30 @@
+.right-side {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 50%;
+  div {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 50%;
+    margin: 15px;
+    button {
+      margin-top: 10px;
+      width: 80px;
+      height: 30px;
+      background: $enabled;
+      border-radius: 5px;
+      border: none;
+      color: $darkerWhite;
+      font: 100 15px Arial , Helvetica , sans-serif;
+      text-shadow: rgba(0, 0, 0, 0.5) 0 1px 2px;
+      transition: .4s;
+      outline: none;
+      &:hover {
+        opacity: 0.7;
+        cursor: pointer;
+      }
+    }
+  }
+}
