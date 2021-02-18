@@ -39,7 +39,7 @@ Um website que do lado esquerdo você pode postar um comentário, e do lado dire
 Assim que tiver clonado o repositório, usando o terminal do [vscode](https://code.visualstudio.com/) ou o terminal do seu sistema operacional, abra-o na pasta server.
 - Installe as dependencias usando :
 ```
-npm install;
+npm install
 ```
 Execute o mesmo comando na pasta client.
 
