@@ -4,8 +4,8 @@ Um website que do lado esquerdo você pode postar um comentário, e do lado dire
 ## Indice
 * [Screenshots](#screenshots)
 * [Tecnologias](#tecnologias)
-* [Instalação](#instalação)
 * [IBM Cloud](#ibm-cloud)
+* [Instalação](#instalação)
 * [Configuração](#configuração)
 * [Funcionalidades](#funcionalidades)
 * [FeedBack](#so)
