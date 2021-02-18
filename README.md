@@ -4,7 +4,7 @@ Um website que do lado esquerdo você pode postar um comentário, e do lado dire
 ## Indice
 * [Screenshots](#screenshots)
 * [Tecnologias](#tecnologias)
-* [Instalação](#instação)
+* [Instalação](#3)
 * [Configuração](#configuração)
 * [Funcionalidades](#funcionalidades)
 * [FeedBack](#so)
@@ -26,6 +26,8 @@ Um website que do lado esquerdo você pode postar um comentário, e do lado dire
   <li><a href="https://reactjs.org">React</a></li>
   <li><a href="https://sass-lang.com/">Sass</a></li>
 </ul>
+
+## Criando conta na IBM Cloud
 
 ## Instalação
 Assim que tiver clonado o repositório, usando o terminal do [vscode](https://code.visualstudio.com/) ou o terminal do seu sistema operacional, abra-o na pasta server.
@@ -75,7 +77,7 @@ const textToSpeech = new TextToSpeech({
   disableSslVerification: true,
 });
 ```
-Coloque a sua chave fornecida pela IBM em apikey, e sua Url fornecida pela IBM em serviceUrl.
+Coloque a sua chave fornecida pela IBM em ```apikey: ''```, e sua Url fornecida pela IBM em ```serviceUrl: ''```, para autenticação do microserviço.
 
 #### Iniciando a aplicação
 - Vá na pasta server e digite ```npm run dev```, para abrir o servidor, na porta 3000.
