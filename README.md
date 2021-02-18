@@ -7,7 +7,7 @@ Um website que do lado esquerdo você pode postar um comentário, e do lado dire
 * [IBM Cloud](#ibm-cloud)
 * [Instalação](#instalação)
 * [Configuração](#configuração)
-* [FeedBack](#so)
+* [FeedBack](#feedback)
 
 ## Screenshots
 
