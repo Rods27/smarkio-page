@@ -90,9 +90,6 @@ Coloque a sua chave fornecida pela IBM em ```apikey: ''```, e sua Url fornecida 
 - Vá na pasta server e digite ```npm run dev```, para abrir o servidor, na porta 3000.
 - Vá na pasta client e digite ```npm start```, para iniciar a aplicação no browser, na porta 3001.
 
-## Funcionalidades
-
-
 ## Feedback 
 
 Ficarei bem agradecido caso queira me dar um feedback costrutivo, caso queira meus contatos estarão abaixo!
