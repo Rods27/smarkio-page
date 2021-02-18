@@ -3,7 +3,7 @@ Um website que do lado esquerdo você pode postar um comentário, e do lado dire
 
 ## Indice
 * [Screenshots](##screenshots)
-* [Tecnologias](## Tecnologias)
+* [Tecnologias](##tecnologias)
 * [Instalação](##Instalação)
 * [FeedBack](#uso)
 
