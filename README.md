@@ -11,9 +11,9 @@ Um website que do lado esquerdo você pode postar um comentário, e do lado dire
 
 ## Screenshots
 
-<img src="client/public/images/app-image-1.png" width="400" />
+<img align="left" src="client/public/images/app-image-1.png" width="450" />
 
-<img src="client/public/images/app-image-2.png" width="400" />
+<img src="client/public/images/app-image-2.png" width="450" />
 
 <br>Link da pasta das imagens <a href="https://github.com/Rods27/smarkio-page/tree/main/client/public">aqui.</a>
 
