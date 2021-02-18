@@ -44,8 +44,6 @@ CREATE DATABASE IF NOT EXISTS Smarkio_DB;
 ```
 depois:
 ```
-CREATE DATABASE IF NOT EXISTS Smarkio_DB;
-
 CREATE TABLE Smarkio_DB.commentaries (
 	id INT unsigned NOT NULL auto_increment,
     comment varchar(200) NOT NULL,
