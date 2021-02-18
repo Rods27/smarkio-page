@@ -14,8 +14,6 @@ const getAll = rescue(async (_req, res)=> {
 //Insert a comment
 const create = rescue(async (req, res)=> {
   const { comment } = req.body
-  const all = await getAll();
-  console.log(all)
   const [newComment] = await connection.execute(
     'INSERT INTO commentaries (comment) VALUES (?)',
     [comment]

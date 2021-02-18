@@ -1,5 +1,4 @@
 module.exports = (err,req, res, _next) => {
-  console.log('bla')
   console.log(err);
   res.status(500).json({
     message: 'Something is wrong..',
