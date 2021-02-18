@@ -1,5 +1,5 @@
 # Smarkio Comment-Reader
-Um website que do lado esquerdo você pode postar um comentário, e do lado direito você pode visualizá-lo e ouvi-lo.
+Um website que do lado esquerdo você pode postar um comentário, e do lado direito você pode visualizá-lo, ouvi-lo ou deletá-lo.
 
 ## Indice
 * [Screenshots](#screenshots)
