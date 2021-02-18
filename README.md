@@ -4,8 +4,9 @@ Um website que do lado esquerdo você pode postar um comentário, e do lado dire
 ## Indice
 * [Screenshots](#screenshots)
 * [Tecnologias](#tecnologias)
+* [Instalação](#instação)
 * [Configuração](#configuração)
-* [Instalação](#Instalação)
+* [Funcionalidades](#funcionalidades)
 * [FeedBack](#so)
 
 ## Screenshots
@@ -77,8 +78,8 @@ const textToSpeech = new TextToSpeech({
 Coloque a sua chave fornecida pela IBM em apikey, e sua Url fornecida pela IBM em serviceUrl.
 
 #### Iniciando a aplicação
-1- Vá na pasta server e digite ```npm run dev```, para abrir o servidor, na porta 3000.
-2- Vá na pasta client e digite ```npm start```, para iniciar a aplicação no browser, na porta 3001.
+- Vá na pasta server e digite ```npm run dev```, para abrir o servidor, na porta 3000.
+- Vá na pasta client e digite ```npm start```, para iniciar a aplicação no browser, na porta 3001.
 
 ## Funcionalidades
 
