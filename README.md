@@ -27,7 +27,7 @@ Um website que do lado esquerdo você pode postar um comentário, e do lado dire
 </ul>
 
 ## Instalação
-1. Assim que tiver clonado o repositório, usando o terminal do [vscode](https://code.visualstudio.com/) ou o terminal do seu sistema operacional, abra-o na pasta server.
+Assim que tiver clonado o repositório, usando o terminal do [vscode](https://code.visualstudio.com/) ou o terminal do seu sistema operacional, abra-o na pasta server.
 - Installe as dependencias usando :
 ```
 npm install;
@@ -64,8 +64,21 @@ module.exports = mysql.createPool({
   port: '3306',
 })
 ```
-#### Iniciando a aplicação
+#### Configurando o Text to Speech
+Vá na pasta ```server/models/commentModel.js```.
+```
+//Text to Speech
+const textToSpeech = new TextToSpeech({
+  authenticator: new IamAuthenticator({ apikey: ''}),
+  serviceUrl: '',
+  disableSslVerification: true,
+});
+```
+Coloque a sua chave fornecida pela IBM em apikey, e sua Url fornecida pela IBM em serviceUrl.
 
+#### Iniciando a aplicação
+1- Vá na pasta server e digite ```npm run dev```, para abrir o servidor, na porta 3000.
+2- Vá na pasta client e digite ```npm start```, para iniciar a aplicação no browser, na porta 3001.
 
 ## Funcionalidades
 
