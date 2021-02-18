@@ -35,7 +35,7 @@ npm install;
 ```
 Execute o mesmo comando na pasta client.
 
-Certifique-se que tem instalado o [Node](#indice) e o [MySql](#indice).
+Certifique-se que tem instalado o [Node](#tecnologias) e o [MySql](#tecnologias).
 
 ## Configuração
 
