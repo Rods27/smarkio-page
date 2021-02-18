@@ -4,6 +4,7 @@ Um website que do lado esquerdo você pode postar um comentário, e do lado dire
 ## Indice
 * [Screenshots](#screenshots)
 * [Tecnologias](#tecnologias)
+* [Configuração](#configuração)
 * [Instalação](#Instalação)
 * [FeedBack](#so)
 
@@ -26,17 +27,19 @@ Um website que do lado esquerdo você pode postar um comentário, e do lado dire
 </ul>
 
 ## Instalação
-1. Assim que tiver clonado o repositório, abra o terminal na pasta server, usando o [vscode](https://code.visualstudio.com/) ou o terminal do seu sistema operacional. 
+1. Assim que tiver clonado o repositório, usando o terminal do [vscode](https://code.visualstudio.com/) ou o terminal do seu sistema operacional, abra-o na pasta server.
 - Installe as dependencias usando :
 ```
 npm install;
 ```
-ou
-``` 
-npm i express express-rescue ibm-watson node a-play mysql2
-```
+Execute o mesmo comando na pasta client.
+
+Certifique-se que tem instalado o Node e o MySql.
+
+## Configuração
 
 ## Funcionalidades
+
 
 ## Feedback 
 
