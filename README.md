@@ -84,7 +84,7 @@ const textToSpeech = new TextToSpeech({
 });
 ```
 Coloque a sua chave fornecida pela IBM em ```apikey: ''```, e sua Url fornecida pela IBM em ```serviceUrl: ''```, para autenticação do microserviço.
-Caso não tenha, volta pra sessão da [IBM Cloud](#criando-conta-na-ibm-cloud)
+Caso não tenha, volta pra sessão da [IBM Cloud](#criando-conta-na-ibm-cloud).
 
 #### Iniciando a aplicação
 - Vá na pasta server e digite ```npm run dev```, para abrir o servidor, na porta 3000.
