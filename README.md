@@ -4,7 +4,8 @@ Um website que do lado esquerdo você pode postar um comentário, e do lado dire
 ## Indice
 * [Screenshots](#screenshots)
 * [Tecnologias](#tecnologias)
-* [Instalação](#3)
+* [Instalação](#instalação)
+* [IBM Cloud](#IBM Cloud)
 * [Configuração](#configuração)
 * [Funcionalidades](#funcionalidades)
 * [FeedBack](#so)
@@ -27,7 +28,8 @@ Um website que do lado esquerdo você pode postar um comentário, e do lado dire
   <li><a href="https://sass-lang.com/">Sass</a></li>
 </ul>
 
-## Criando conta na IBM Cloud
+## IBM Cloud
+#### Criando conta na IBM Cloud
 
 ## Instalação
 Assim que tiver clonado o repositório, usando o terminal do [vscode](https://code.visualstudio.com/) ou o terminal do seu sistema operacional, abra-o na pasta server.
