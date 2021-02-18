@@ -33,8 +33,8 @@ const exclude = rescue(async (req, res)=> {
 
 //Text to Speech
 const textToSpeech = new TextToSpeech({
-  authenticator: new IamAuthenticator({ apikey: 'imCUsUNRYTrOyQJ_TwSu4vWtlg2prml9SRc71GQ2LUG4'}),
-  serviceUrl: 'https://api.us-south.text-to-speech.watson.cloud.ibm.com/instances/b5015479-92b1-4cda-9c69-488842da2b6c',
+  authenticator: new IamAuthenticator({ apikey: ''}),
+  serviceUrl: '',
   disableSslVerification: true,
 });
 
