@@ -2,10 +2,10 @@
 Um website que do lado esquerdo você pode postar um comentário, e do lado direito você pode visualizá-lo e ouvi-lo.
 
 ## Indice
-* [Screenshots](##screenshots)
-* [Tecnologias](##tecnologias)
-* [Instalação](##Instalação)
-* [FeedBack](#uso)
+* [Screenshots](#screenshots)
+* [Tecnologias](#tecnologias)
+* [Instalação](#Instalação)
+* [FeedBack](#so)
 
 ## Screenshots
 
