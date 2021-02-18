@@ -4,11 +4,10 @@ Um website que do lado esquerdo você pode postar um comentário, e do lado dire
 ## Indice
 * [Screenshots](#screenshots)
 * [Tecnologias](#tecnologias)
-* [Instalação](#instalação)
 * [IBM Cloud](#ibm-cloud)
+* [Instalação](#instalação)
 * [Configuração](#configuração)
-* [Funcionalidades](#funcionalidades)
-* [FeedBack](#so)
+* [FeedBack](#feedback)
 
 ## Screenshots
 
@@ -40,7 +39,7 @@ Um website que do lado esquerdo você pode postar um comentário, e do lado dire
 Assim que tiver clonado o repositório, usando o terminal do [vscode](https://code.visualstudio.com/) ou o terminal do seu sistema operacional, abra-o na pasta server.
 - Installe as dependencias usando :
 ```
-npm install;
+npm install
 ```
 Execute o mesmo comando na pasta client.
 
@@ -85,6 +84,7 @@ const textToSpeech = new TextToSpeech({
 });
 ```
 Coloque a sua chave fornecida pela IBM em ```apikey: ''```, e sua Url fornecida pela IBM em ```serviceUrl: ''```, para autenticação do microserviço.
+Caso não tenha, volta pra sessão da [IBM Cloud](#criando-conta-na-ibm-cloud).
 
 #### Iniciando a aplicação
 - Vá na pasta server e digite ```npm run dev```, para abrir o servidor, na porta 3000.
