@@ -34,9 +34,24 @@ npm install;
 ```
 Execute o mesmo comando na pasta client.
 
-Certifique-se que tem instalado o Node e o MySql.
+Certifique-se que tem instalado o [Node](#indice) e o [MySql](#indice).
 
 ## Configuração
+#### Criando o Database
+- Assim que tiver tudo instalado, installe e abra o [MySQLWorkBench](https://www.mysql.com/products/workbench/), entre no seu servidor local, abra uma nova query e digite: 
+```
+CREATE DATABASE IF NOT EXISTS Smarkio_DB;
+```
+depois:
+```
+CREATE DATABASE IF NOT EXISTS Smarkio_DB;
+
+CREATE TABLE Smarkio_DB.commentaries (
+	id INT unsigned NOT NULL auto_increment,
+    comment varchar(200) NOT NULL,
+    CONSTRAINT pk_commentaries PRIMARY KEY (id)
+);
+```
 
 ## Funcionalidades
 
