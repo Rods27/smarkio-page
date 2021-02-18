@@ -37,6 +37,7 @@ Execute o mesmo comando na pasta client.
 Certifique-se que tem instalado o [Node](#indice) e o [MySql](#indice).
 
 ## Configuração
+
 #### Criando o Database
 - Assim que tiver tudo instalado, installe e abra o [MySQLWorkBench](https://www.mysql.com/products/workbench/), entre no seu servidor local, abra uma nova query e digite: 
 ```
@@ -50,6 +51,21 @@ CREATE TABLE Smarkio_DB.commentaries (
     CONSTRAINT pk_commentaries PRIMARY KEY (id)
 );
 ```
+E o banco de dados estará criado.
+
+#### Configurando a Conexão
+É importante que antes de tentar iniciar a aplicação configure a conexão do seu servidor com o front-end, na pasta server/models/connection.js.
+```
+module.exports = mysql.createPool({
+  host: 'localhost',
+  user: 'root',
+  password: '123',
+  database: 'Smarkio_DB',
+  port: '3306',
+})
+```
+#### Iniciando a aplicação
+
 
 ## Funcionalidades
 
