@@ -22,7 +22,7 @@ class LeftSide extends React.Component {
 
   createCommentary(text) {
     create(text);
-    setTimeout(() => window.location.reload(), 300);
+    setTimeout(() => window.location.reload(), 500);
   }
 
   render() {
