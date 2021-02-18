@@ -30,6 +30,11 @@ Um website que do lado esquerdo você pode postar um comentário, e do lado dire
 
 ## IBM Cloud
 #### Criando conta na IBM Cloud
+1. Acesse a [IBM Cloud](https://cloud.ibm.com/login) faça seu login ou [crie sua conta](https://cloud.ibm.com/registration).
+2. Na barra de Pesquisa, pesquise por **Text to Speech**.
+	- Na aba **Criar**, selecione seu plano.
+	- Ao lado direito, no painel, clique em **Criar**, caso já tenha uma instância, vá clique em **visualize uma existente**
+	- Será rediredionado a pagina que tem suas credênciais, onde será usada mais a baixo na [configuração](#configuração)
 
 ## Instalação
 Assim que tiver clonado o repositório, usando o terminal do [vscode](https://code.visualstudio.com/) ou o terminal do seu sistema operacional, abra-o na pasta server.
