@@ -5,7 +5,7 @@ Um website que do lado esquerdo você pode postar um comentário, e do lado dire
 * [Screenshots](#screenshots)
 * [Tecnologias](#tecnologias)
 * [Instalação](#instalação)
-* [IBM Cloud](#ibmcloud)
+* [IBM Cloud](#ibm-cloud)
 * [Configuração](#configuração)
 * [Funcionalidades](#funcionalidades)
 * [FeedBack](#so)
